@@ -31,14 +31,14 @@ $ mv terraform /usr/bin/
 ```
 ## Variables used 
 
-- region : Region of the VPC (default: us-east-2)
-- cidr_block : CIDR block for the VPC (default: 10.0.0.0/16)
-- project : Name of project this VPC is meant for (default: demo)
-- ami : Bastion Amazon Machine Image (AMI) ID
-- type : Instance type for bastion instance (default: t2.micro)
-- key : EC2 Key pair name for the bastion
-- access_key :
-- secret_key :
+- region - Region of the VPC (default: us-east-2)
+- cidr_block - CIDR block for the VPC (default: 10.0.0.0/16)
+- project - Name of project this VPC is meant for (default: demo)
+- ami - Bastion Amazon Machine Image (AMI) ID
+- type - Instance type for bastion instance (default: t2.micro)
+- key - EC2 Key pair name for the bastion
+- access_key - access key id for the IAM user
+- secret_key - secret key for the IAM user
 
 ## How to Configure
 
