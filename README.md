@@ -68,4 +68,4 @@ $ terraform apply
 
 ## Result
 
-After the execution of this script, you will have a VPC which contains 3 public subnet as well as 3 private subnet ready to use. Aslo, EC2 bastion server with its custom security group.
+After the execution of this script, you will have a VPC which contains 3 public subnet as well as 3 private subnet ready to use. Also, EC2 bastion server with its custom security group attached to one of the public subnet.
