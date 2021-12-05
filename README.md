@@ -54,7 +54,7 @@ variable "region" {
 Navigate to the project directory where the files are to be installed and follow the below steps
 
 ```
-$ git https://github.com/Freeda-F/terraform-vpc-aws.git
+$ git clone https://github.com/Freeda-F/terraform-vpc-aws.git
 ```
 Next, use the 'terraform init' command is used to initialize a working directory containing Terraform configuration files.
 ```
